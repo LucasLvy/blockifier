@@ -2257,8 +2257,7 @@ dependencies = [
 [[package]]
 name = "papyrus_config"
 version = "0.3.0-dev.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98d970689602132e050483044c882d29da7dc290a4f2bc59b9b182dd9bd53aa9"
+source = "git+https://github.com/LucasLvy/papyrus?branch=lucas/cyclic-dep#0f75eed78393840a62360454e1a61916f04ad9c5"
 dependencies = [
  "clap 4.4.13",
  "itertools 0.10.5",
@@ -2272,8 +2271,7 @@ dependencies = [
 [[package]]
 name = "papyrus_proc_macros"
 version = "0.3.0-dev.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd2d5d7cb785651af60d7d23c79e7c09464bc3f9647162e87f2ac28fb8acda99"
+source = "git+https://github.com/LucasLvy/papyrus?branch=lucas/cyclic-dep#0f75eed78393840a62360454e1a61916f04ad9c5"
 dependencies = [
  "quote",
  "syn 2.0.46",
@@ -2282,8 +2280,7 @@ dependencies = [
 [[package]]
 name = "papyrus_storage"
 version = "0.3.0-dev.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ea240ca33cc6ac5678a196c0633b9188135b93728ba89858b5fea64e5f4b7db"
+source = "git+https://github.com/LucasLvy/papyrus?branch=lucas/cyclic-dep#0f75eed78393840a62360454e1a61916f04ad9c5"
 dependencies = [
  "byteorder",
  "cairo-lang-casm",
